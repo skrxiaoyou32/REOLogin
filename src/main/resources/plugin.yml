@@ -1,0 +1,21 @@
+name: REOLogin
+version: '${version}'
+main: org.skrxiaoyou.reo.reologin.REOLogin
+api-version: '1.20'
+
+commands:
+  login:
+    description: REOLogin Login Function
+    usage: /<command>
+    permission: REOLogin.basic
+    permission-message: You don't have <permission>
+  register:
+    description: REOLogin Register Function
+    usage: /<command>
+    permission: REOLogin.basic
+    permission-message: You don't have <permission>
+  changepwd:
+    description: REOLogin ChangePassword Function
+    usage: /<command>
+    permission: REOLogin.basic
+    permission-message: You don't have <permission>
